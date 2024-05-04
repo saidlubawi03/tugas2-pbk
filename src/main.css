@@ -1,0 +1,207 @@
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fefefe;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .balance,
+  .points {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .balance {
+    background-color: #007bff;
+  }
+  
+  .points {
+    background-color: #28a745;
+  }
+  
+  /* Main Content */
+  .main {
+    padding: 20px;
+  }
+  
+  .deposit-banner {
+    background-color: #28a745;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .deposit-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .payment-method {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .deposit-promo {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .instruction {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .qr-code {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .footer-deposit {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .game-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .game-item {
+    flex: 1;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .game-item:nth-child(2) {
+    background-color: #fd7e14;
+  }
+  
+  .game-item:nth-child(3) {
+    background-color: #dc3545;
+  }
+  
+  .game-item:nth-child(4) {
+    background-color: #6610f2;
+  }
+  
+  .game-item:last-child {
+    margin-right: 0;
+  }
+  
+  .login-form {
+    margin-top: 30px;
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .register-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-text a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navigation {
+    margin-top: 20px;
+  }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  .badge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+  }
+  
